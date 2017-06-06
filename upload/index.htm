@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+<title>Multiple upload files</title>
+<style type="text/css">
+<!--
+#uploadform {
+
+ text-align:center;
+}
+#uploadform input {
+ display:block; 
+ margin:10px auto;
+}
+body {
+	background-color:#999
+}
+-->
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<table width="500" border="0" align="center" cellpadding="5" cellspacing="0" style="background-color:#FFF;border:10px solid #ACB83C;border-radius:20px">
+  <tr>
+    <td align="center"><img src="logo.jpg"  alt="Mini Upload Tool" width="150" height="150" title="Mini Upload Tool"/></td>
+  </tr>
+  <tr>
+    <td align="center"><button onclick="add_upload('uploadform'); return false;">Add upload box</button></td>
+  </tr>
+  <tr>
+    <td align="center"><form action="uploader.php" method="post" enctype="multipart/form-data" name="uploadform" target="uploadframe" id="uploadform" onsubmit="uploading(this); return false">
+      <input type="file" class="file_up" name="file_up[]" />
+      <input type="submit" value="Upload Files Now &gt;" id="sub" />
+    </form></td>
+  </tr>
+</table>
+<script type="text/javascript" src="upload.js"></script>
+
+
+</body>
+</html>

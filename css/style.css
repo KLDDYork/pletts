@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color:#0F1818;background-image: url(../images/backg.jpg);margin-top: 34px;margin-left: 0em;margin-right: 0em; background-repeat: repeat-x;background-position:center top;font-family: Arial, Helvetica, sans-serif;font-weight: normal; font-size:12px}
+p{font-size: 13px;line-height:24px;color:#333333}
+h1{font-size:24px;font-weight:bold;color:#007585;}
+h2{font-size:16px;font-weight:bold;color:#666666;}
+h3{font-size:14px;font-weight:bold;color:#007585;}
+li {list-style: square; font-size: 12px;line-height:19px;color:#333333} 
+a:link{color: #333333;}
+a:visited{color: #333333;}
+a:active{color: #333333;}
+a:hover{color: #007585;}
+.formstuff{background-color:#EEEEEE;font-size: 12px;}
+.main{background-color:#FFFFFF}
+.but {background-color:#007585;color:#FFFFFF;border:1px solid #999}
+.footer{font-size: 11px;padding:10px;font-family: Geneva, Arial, Helvetica, sans-serif;font-weight: normal;color: #FFFFFF;line-height:22px}
+.footer a:link{color: #FFFFFF;text-decoration:none}
+.footer a:visited{color: #FFFFFF;text-decoration:none}
+.footer a:active{color: #FFFFFF;text-decoration:none}
+.footer a:hover{background-color: #ACB83C; color: #333;text-decoration:none;}
+.formstuff{background-color:#EEEEEE;font-size: 12px;}
